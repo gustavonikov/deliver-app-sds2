@@ -1,6 +1,6 @@
 .home-container {
 	padding-top: 100px;
-	height: calc(100vh - 254px);
+	height: calc(100vh - 154px); /* 154 because is the height of the footer + the height of the header */
 }
 
 .home-content {
