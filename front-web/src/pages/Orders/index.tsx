@@ -1,5 +1,25 @@
+import { useEffect, useState } from 'react';
+
+import ProductsList from './ProductsList';
+import StepsHeader from './StepsHeader';
+import OrderLocation from './OrderLocation';
+import { OrderLocationData, Product } from './interfaces';
+import api from '../../services/api';
+
+import './index.css';
 
 export default function Orders() {
+	const [products, setProducts] = useState<Product[]>([]);
+	const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
+
+	useEffect(() => {
+		api.get('/products').then((res) => {
+			setProducts(res.data);
+		}).catch((error) => {
+			console.log(error);
+		});
+	}, []);
+
 	/* const handleSelectProduct = (product: Product) => {
 			const isAlreadySelected = selectedProducts.some(item => item.id === product.id);
 		
@@ -26,7 +46,12 @@ export default function Orders() {
 					toast.warning('Erro ao enviar pedido');
 				})
 		} */
+
 	return (
-		<h1>Hello World!</h1>
+		<div className="orders-container">
+			<StepsHeader />
+			<ProductsList products={products} />
+			<OrderLocation onChangeLocation={location => setOrderLocation(location)} />
+		</div>
 	);
 }
