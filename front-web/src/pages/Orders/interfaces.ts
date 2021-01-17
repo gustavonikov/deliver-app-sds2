@@ -11,3 +11,11 @@ export interface OrderLocationData {
     longitude: number;
     address: string;
 };
+
+interface ProductId {
+    id: number;
+}
+
+export interface OrderPayload extends OrderLocationData {
+    products: ProductId[];
+} 

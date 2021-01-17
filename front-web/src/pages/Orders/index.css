@@ -146,9 +146,9 @@
   
   .order-location-content {
     width: 70%;
-    margin: 30px 0 120px 0;
+    margin: 40px 0 40px 0;
     padding: 20px 0;
-    height: 400px;
+    height: 650px;
     background: #FFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -171,7 +171,7 @@
   
   .leaflet-container {
     width: 100%;
-    height: 100%;
+    height: 82%;
     border-radius: 10px;
     margin-top: 20px;
     z-index: 0;
@@ -193,7 +193,7 @@
   }
   
   .order-summary-content {
-    width: calc(70% - 40px);
+    width: 70%;
     display: flex;
     justify-content: space-between;
     background: #FFF;
@@ -204,7 +204,7 @@
     padding: 20px;
   }
   
-  .amount-selected-container {
+  .quantity-selected-container {
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
@@ -213,7 +213,7 @@
     margin-bottom: 10px;
   }
   
-  .amount-selected {
+  .quantity-selected {
     font-weight: bold;
     font-size: 16px;
     line-height: 15px;
