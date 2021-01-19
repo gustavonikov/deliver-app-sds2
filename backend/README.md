@@ -1,5 +1,5 @@
 ### Starting
-You must have installed in your computer, the JDK version 11, PostgreSQL database 
+You must have installed in your computer, the JDK version 11, PostgreSQL database(which you have to create a database name with the same name that's in the project or change in the name in the project) 
 and the Spring Tool Suite with vscode, eclipse or another IDE.
 
 ### How to use
