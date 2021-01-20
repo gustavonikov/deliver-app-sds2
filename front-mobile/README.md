@@ -15,7 +15,7 @@ You must have expo installed on your computer and a phone device or simulator to
 ## Scripts
 
 Run ```expo start``` or ```npm start```.
-Will run the app in the development mode.
+Will run the app in the development mode. <br />
 Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.
