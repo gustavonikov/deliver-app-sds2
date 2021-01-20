@@ -4,7 +4,7 @@ This web version is only for the client request the orders while the front-mobil
 
 ## Installation
 
-run ```npm install``` to install all the packages needed it.
+Run ```npm install``` to install all the packages needed it.
 
 ## Available Scripts
 
