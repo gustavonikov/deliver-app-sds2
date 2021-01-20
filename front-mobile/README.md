@@ -10,7 +10,7 @@ Run ```npm install```
 
 ## Usage
 
-You must have expo installed on your computer and a phone device or simulator to see the project.
+You must have expo installed (ideal expo version >= 4.17 ) on your computer and a phone device or simulator to see the project.
 
 ## Scripts
 
